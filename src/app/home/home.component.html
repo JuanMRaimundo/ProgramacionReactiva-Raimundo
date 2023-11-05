@@ -1,0 +1,14 @@
+<h1>Tiempo de memorizar</h1>
+
+<app-user-list class="list"></app-user-list>
+
+<div class="counter">
+  <div>
+    <h2>Trata de leer todos las cartas, debe ser antes de los 60 segundos</h2>
+  </div>
+  <div>
+    <p>{{ counter }}</p>
+    <button (click)="stop()">Parar</button>
+    <button (click)="start()">Iniciar</button>
+  </div>
+</div>

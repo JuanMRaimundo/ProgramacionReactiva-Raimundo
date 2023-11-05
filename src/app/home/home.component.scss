@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
